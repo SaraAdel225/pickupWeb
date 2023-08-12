@@ -1,0 +1,54 @@
+.about{
+    background-color: white;
+    position: relative;
+}
+.about .title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+}
+.about .title .bookImg{
+    width: 100px;
+}
+.about .title .word{
+    color: var(--main_color);
+}
+.about .container .aboutImg{
+    position: relative;
+    z-index: 0;
+    width: 600px;
+    margin-top: -50px;
+    margin-left: 35px;
+}
+.about .container h4{
+    width: 500px;
+    color:var(--main_color);
+    text-align: end;
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 11;
+}
+.about .container .read {
+    margin-right: 10px;
+}
+@media (max-width: 680px) {
+    .about .container .aboutImg{
+        width: 100%;
+        background-color: white;
+        margin-bottom: 25px;
+        margin-left: 0px;
+        position: relative;
+        z-index: 0;
+    }
+    .about .container h4{
+        width: 100%;
+        margin-top: 40px;
+        position: relative;
+        z-index: 11;
+        display: block;
+        margin: auto;
+    }
+}

@@ -1,0 +1,18 @@
+.App{
+  position: relative;
+  overflow-x: clip;
+}
+.App>:nth-child(1){
+  background-color: red;
+  position: relative;
+}
+.App .light{
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background-color: #1c75f293;
+  filter: blur(100px);
+  border-radius: 100px;
+  right: -50px;
+  top: 480px;
+}

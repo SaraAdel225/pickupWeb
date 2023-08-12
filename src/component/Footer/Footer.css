@@ -1,0 +1,117 @@
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #fcfcfc;
+    position: relative;
+}
+.shapedividers_com-8681::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 194px;
+    background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23ffffff"/></svg>'); 
+    }
+    
+@media (min-width:2100px){
+    .shapedividers_com-8681::before{
+    background-size: 100% calc(2vw + 194px);
+    }
+}
+.footer .container{
+    display: block;
+}
+.footer .content{  
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
+    gap: 50px;
+}
+
+.footer .class{
+    text-align: end;
+}
+.footer .class p{
+    margin: 0px;
+}
+.footer .class ul{
+    margin-top: 20px;
+}
+.footer .class ul li{
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.footer .class ul li a{
+    text-align: end;
+    color: var(--main_color);
+    transition: .3s;
+}
+.footer .class ul li .arrow{
+    margin-left: 10px;
+    color:#03a9f4;
+}
+.footer .class ul li:not(:last-child) {
+    border-bottom: 1px #b9b9b951 solid;
+}
+.footer .class ul li:hover a {
+    color: black;
+    padding-right: 15px ;
+}
+.footer .logo{
+    width: 200px;
+} 
+.footer .colum_one{
+    margin-top: 20px;
+}
+.footer .colum_one div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 9px;
+    color: var(--main_color);
+}
+
+.footer .colum_one div .iconFooter {
+    font-size: 20px;
+    color: #03a9f4;
+}
+
+.footer .colum_one div p {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1.1px;
+}
+
+.footer .colum_one div div {
+    display: block;
+    margin-bottom: 0;
+}
+
+.footer .colum_one div div p {
+    margin: auto;
+}
+.social a{
+    margin-top: 20px;
+    transition: .3s;
+}
+.social a:hover{
+    transform: scale(1.2);
+}
+@media (max-width: 992px) {
+    .footer .content{  
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .footer .logo{
+        display: block;
+        margin-bottom: 10px;
+    }
+}
