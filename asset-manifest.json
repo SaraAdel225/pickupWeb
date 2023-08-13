@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pickupWeb/static/css/main.b0eaef2c.css",
+    "main.js": "/pickupWeb/static/js/main.28194468.js",
+    "static/js/787.128caece.chunk.js": "/pickupWeb/static/js/787.128caece.chunk.js",
+    "static/media/download.gif": "/pickupWeb/static/media/download.187114bdf615b31f8381.gif",
+    "static/media/The driver's on his way.gif": "/pickupWeb/static/media/The driver's on his way.006d20d887ae5020d4d3.gif",
+    "static/media/Pick up truck-amico.png": "/pickupWeb/static/media/Pick up truck-amico.86501925da346b60dfad.png",
+    "static/media/Download Icon Animation in Framer_js.gif": "/pickupWeb/static/media/Download Icon Animation in Framer_js.f17971cb3331ec50d270.gif",
+    "static/media/Icon Reward.gif": "/pickupWeb/static/media/Icon Reward.4570a9153f1d9e78893d.gif",
+    "static/media/e9eeb331f7 (1).png": "/pickupWeb/static/media/e9eeb331f7 (1).9c0d4009087a7c4e63dd.png",
+    "static/media/e9eeb331f78.png": "/pickupWeb/static/media/e9eeb331f78.6fed2cce0ba6fb567de3.png",
+    "static/media/oie_transparent (3).png": "/pickupWeb/static/media/oie_transparent (3).9f4c65b23c004c4b3613.png",
+    "static/media/Frame.png": "/pickupWeb/static/media/Frame.fd1b3845fcce96af5237.png",
+    "index.html": "/pickupWeb/index.html",
+    "main.b0eaef2c.css.map": "/pickupWeb/static/css/main.b0eaef2c.css.map",
+    "main.28194468.js.map": "/pickupWeb/static/js/main.28194468.js.map",
+    "787.128caece.chunk.js.map": "/pickupWeb/static/js/787.128caece.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0eaef2c.css",
+    "static/js/main.28194468.js"
+  ]
+}
